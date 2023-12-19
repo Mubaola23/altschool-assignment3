@@ -1,0 +1,124 @@
+body {
+    /* background: #fff6ee; */
+    flex-direction: column;
+    justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;    position: relative;
+    color: rgba(0, 0, 0, 0.88);
+    font-family: AlmarenaDisplayBold, sans-serif;
+    /* color: rgb(131, 185, 181); */
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    width: 100%;
+    padding: 30px;
+}
+
+.primary {
+    color: #038E7D !important;
+}
+
+.rights {
+    font-size: .875rem;
+    font-family: Almarena, sans-serif;
+    line-height: 30px;
+    letter-spacing: -.01rem;
+    color: #aaa;
+}
+
+.cent {
+    text-align: center;
+    /* margin: auto; */
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.circle-text {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px #548BC5 solid;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.blue-list .circle-text{
+    height: 25px;
+    width: 25px;
+    background-color:transparent;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px white solid;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.blue-list {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn {
+    background-color: #038E7D !important;
+    border: none;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+
+
+
+
+img {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(240, 240, 240, 1);
+    border-radius: 2px;
+}
+
+input:focus,
+input:focus-visible,
+input:active {
+    border: 2px solid rgba(46, 196, 182, 1);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap {
+        display: block;
+    }
+}
